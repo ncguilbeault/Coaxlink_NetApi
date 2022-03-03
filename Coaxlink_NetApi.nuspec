@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Coaxlink_NetApi</id>
+    <version>1.0.0</version>
+    <authors>Nicholas Guilbeault</authors>
+    <owners>Nicholas Guilbeault</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>.NET wrapper for the Euresys Coaxlink eGrabber API.</description>
+    <copyright>Copyright Nicholas Guilbeault 2022</copyright>
+    <tags>Euresys Coaxlink</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\net45\Coaxlink_NetApi.dll" target="lib\net45"></file>
+  </files>
+</package>
